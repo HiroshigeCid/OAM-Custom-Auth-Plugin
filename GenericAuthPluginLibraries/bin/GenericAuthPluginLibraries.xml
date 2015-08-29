@@ -1,0 +1,12 @@
+<Plugin name="GenericAuthPluginLibraries" type="Authentication">
+	<author>Hiroshige Cid</author>
+	<email>hiroshigecid798@gmail.com</email>
+	<creationDate>2010-05-22</creationDate>
+	<version>10</version>
+	<description>GenericAuthPluginLibraries</description>
+	<interface>oracle.security.am.plugin.authn.AbstractAuthenticationPlugIn
+	</interface>
+	<implementation>com.auth.libs.plugin.GenericAuthPluginLibraries</implementation>
+	<configuration>
+	</configuration>	
+</Plugin>
