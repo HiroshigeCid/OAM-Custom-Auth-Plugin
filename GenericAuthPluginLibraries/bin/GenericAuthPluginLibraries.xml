@@ -8,5 +8,6 @@
 	</interface>
 	<implementation>com.auth.libs.plugin.GenericAuthPluginLibraries</implementation>
 	<configuration>
+	
 	</configuration>	
 </Plugin>
