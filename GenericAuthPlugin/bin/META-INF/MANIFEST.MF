@@ -1,0 +1,12 @@
+Manifest-Version: 1.0
+Class-Path: .
+Bundle-ManifestVersion: 2 
+Bundle-SymbolicName: GenericAuthPlugin
+Bundle-Name: GenericAuthPlugin
+Require-Bundle: system.bundle
+Bundle-RequiredExecutionEnvironment: JavaSE-1.6
+Bundle-Version: 10
+Bundle-Activator: com.auth.plugin.GenericAuthPlugin
+Bundle-Classpath: .
+Import-Package: com.auth.example, oracle.security.am.plugin, oracle.security.am.plugin.authn, org.osgi.framework;version="1.3.0"
+OAM-Import-Pakcage: com.auth.example

@@ -1,0 +1,40 @@
+<Plugin name="GenericAuthPlugin" type="Authentication">
+	<author>Hiroshige Cid</author>
+	<email>hiroshigecid798@gmail.com</email>
+	<creationDate>2010-05-22</creationDate>
+	<version>10</version>
+	<description>GenericAuthPlugin</description>
+	<interface>oracle.security.am.plugin.authn.AbstractAuthenticationPlugIn
+	</interface>
+	<implementation>com.auth.plugin.GenericAuthPlugin</implementation>
+	<configuration>
+		<AttributeValuePair>
+			<Attribute type="string" length="30">gen_auth_iduser</Attribute>
+			<mandatory>false</mandatory>
+			<instanceOverride>true</instanceOverride>
+			<globalUIOverride>false</globalUIOverride>
+			<value>gen_auth_iduser</value>
+		</AttributeValuePair>	
+		<AttributeValuePair>
+			<Attribute type="string" length="30">gen_auth_password</Attribute>
+			<mandatory>false</mandatory>
+			<instanceOverride>true</instanceOverride>
+			<globalUIOverride>false</globalUIOverride>
+			<value>gen_auth_password</value>
+		</AttributeValuePair>	
+		<AttributeValuePair>
+			<Attribute type="string" length="30">gen_auth_request_time</Attribute>
+			<mandatory>false</mandatory>
+			<instanceOverride>true</instanceOverride>
+			<globalUIOverride>false</globalUIOverride>
+			<value>gen_auth_request_time</value>
+		</AttributeValuePair>	
+		<AttributeValuePair>
+			<Attribute type="string" length="30">gen_auth_connect_time</Attribute>
+			<mandatory>false</mandatory>
+			<instanceOverride>true</instanceOverride>
+			<globalUIOverride>false</globalUIOverride>
+			<value>gen_auth_connect_time</value>
+		</AttributeValuePair>			
+	</configuration>	
+</Plugin>
